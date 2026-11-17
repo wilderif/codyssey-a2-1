@@ -1,0 +1,17 @@
+[project]
+name = "codyssey-a2-1"
+version = "0.1.0"
+description = "AI mathematics exercises using NumPy and Jupyter notebooks"
+readme = "README.md"
+requires-python = ">=3.13,<3.14"
+dependencies = [
+    "matplotlib>=3.11.2",
+    "numpy>=2.5.5",
+    "seaborn>=0.13.2",
+]
+
+[dependency-groups]
+dev = [
+    "ipykernel>=7.4.0",
+    "jupyterlab>=4.6.6",
+]
